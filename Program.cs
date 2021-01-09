@@ -42,7 +42,7 @@ namespace DebugLogUploadMobile
                 cmd.Connection = con;                
                 SqlDataReader reader = cmd.ExecuteReader();
 
-                var filepath = @"C:\Users\roger\Documents\fotosDebug";
+                var filepath = @"C:\Users\roger\Documents\Debug Log UploadMobile";
                 int i = 1;
                 while (reader.Read())
                 {
